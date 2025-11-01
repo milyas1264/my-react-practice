@@ -6,8 +6,10 @@ import tailwindcss from '@tailwindcss/vite'
 
 // 👇 yahan apne repo ka naam zaroor likhna hai
 export default defineConfig({
+  base: "/my-react-practice/",
   plugins: [react(), tailwindcss()],
-  base: "/my-react-app/",
+  
 })
+
 
 

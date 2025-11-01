@@ -14,7 +14,7 @@ function App() {
 
   return (
     <div class="Text-center" >
-      <h1 class="bg-blue-200 text-3xl ">Heollo React!</h1>
+      <h1 >Heollo React!</h1>
       <Message/>
       <Greeting isLoggedIn={false}/>
       <userStatus isOnline={false}/>
