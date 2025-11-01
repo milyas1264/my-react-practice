@@ -13,7 +13,7 @@ function App() {
   
 
   return (
-    <div class="Text-center" >
+    <div  >
       <h1 >Heollo React!</h1>
       <Message/>
       <Greeting isLoggedIn={false}/>
