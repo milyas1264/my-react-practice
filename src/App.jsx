@@ -14,13 +14,14 @@ function App() {
 
   return (
     <div  >
-      <h1 >Heollo React!</h1>
+      <h1 className='text-danger text-center'>Heollo React!</h1>
       <Message/>
       <Greeting isLoggedIn={false}/>
       <userStatus isOnline={false}/>
       <NameList/>
       <ProductList/>
       <SimpleForm/>
+      
     </div>
   )
 }

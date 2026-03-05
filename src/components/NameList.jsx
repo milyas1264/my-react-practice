@@ -3,7 +3,7 @@ function NameList() {
 
   return (
     <div>
-      <h2>Student List</h2>
+      <h2 className="text-center text-info">Student List</h2>
       <ul>
         {names.map((name, index) => (
           <li key={index}>{name}</li>

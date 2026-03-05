@@ -21,5 +21,6 @@ import { BrowserRouter } from 'react-router-dom'
 ReactDOM.createRoot(document.getElementById('root')).render(
   <BrowserRouter basename="/my-react-practice">  
     <App />
+
   </BrowserRouter>,
 )
